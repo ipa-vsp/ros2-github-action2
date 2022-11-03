@@ -11,3 +11,4 @@ RUN chmod +x entrypoint.sh
 # RUN mkdir -p colcon_ws/src
 
 ENTRYPOINT [ "/entrypoint.sh" ]
+CMD [ "bash" ]
